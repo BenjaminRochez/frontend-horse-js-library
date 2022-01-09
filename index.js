@@ -1,12 +1,12 @@
 // Create a Date() object for Christmas
-let christmas = new Date('December 25, 2021');
+let christmas = new Date("December 25, 2021");
 
 // Get some details
-let day = getDay(christmas);
-let month = getMonth(christmas);
+let day = time.getDay(christmas);
+let month = time.getMonth(christmas);
 console.log(day, month);
 
 // Modify the date
-addDays(christmas, 7);
-addYears(christmas, 1);
+time.addDays(christmas, 7);
+time.addYears(christmas, 1);
 console.log(christmas);
