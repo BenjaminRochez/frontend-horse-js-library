@@ -1,12 +1,14 @@
+import { getDay, getMonth, addDays, addYears } from "./time.js";
+
 // Create a Date() object for Christmas
 let christmas = new Date("December 25, 2021");
 
 // Get some details
-let day = time.getDay(christmas);
-let month = time.getMonth(christmas);
+let day = getDay(christmas);
+let month = getMonth(christmas);
 console.log(day, month);
 
 // Modify the date
-time.addDays(christmas, 7);
-time.addYears(christmas, 1);
+addDays(christmas, 7);
+addYears(christmas, 1);
 console.log(christmas);
